@@ -1,0 +1,8 @@
+spring.task.scheduling.pool.size: 20
+camunda.bpm.client:
+  base-url: http://localhost:8080/engine-rest
+  async-response-timeout: 1000 # Defines the maximum duration of the long-polling request
+  worker-id: worker_1 # Identifies the worker towards the Engine
+
+logging.level.org.camunda.bpm.client: info
+server.port: 8081
